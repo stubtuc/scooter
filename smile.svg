@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="187px" height="187px" viewBox="0 0 187 187" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 8</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-95.9%" y="-95.9%" width="291.9%" height="291.9%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="23.9871652" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-838.000000, -722.000000)">
+            <g id="Group-8" transform="translate(870.000000, 778.000000)">
+                <circle id="Oval-2" fill="#25C566" opacity="0.559273098" filter="url(#filter-1)" cx="61.5" cy="37.5" r="37.5"></circle>
+                <circle id="Oval-2" stroke="#FFFFFF" cx="37.5" cy="40.5" r="37.5"></circle>
+                <path d="M19.7959499,54.3027453 L57.9623524,42.9030615 C60.0430631,56.3546159 55.3688319,64.5580129 43.9396589,67.5132524 C32.5104859,70.4684919 24.4625829,66.0649896 19.7959499,54.3027453 Z" id="Path-33" stroke="#FFFFFF"></path>
+                <circle id="Oval-19" stroke="#FFFFFF" cx="49.5" cy="28.5" r="7.5"></circle>
+                <circle id="Oval-3" fill="#FFFFFF" cx="54" cy="24" r="4"></circle>
+                <circle id="Oval-3" fill="#FFFFFF" cx="24" cy="31" r="4"></circle>
+                <circle id="Oval-19" stroke="#FFFFFF" cx="19.5" cy="35.5" r="7.5"></circle>
+                <polygon id="Path-3" fill="#FFFFFF" points="21.8311558 59.2194379 58.452283 48.1530904 57.879795 43.2555768 20.0722375 54.2708942"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

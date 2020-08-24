@@ -1,0 +1,376 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,
+								   initial-scale=1.0">
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="aos.css">
+	<script src="jquery-3.2.1.js"></script>
+	<script src="jquery.mask.min.js"></script>
+	<script src="aos.js"></script>
+	<script src="jquery.validate.js"></script>
+	<title>L-Ride One</title>
+</head>
+<body>
+	<div class="buy-space">
+		<img src="x.svg" alt="" class="exit">
+		<div class="buy-container">
+			<div class="chat">
+		</div>
+			<section class="buy-section">
+				<form action="" class="buy-form">
+					<p class="step-name" style="font-size: 52px">Привет! Хотите сделать заказ?</p>
+					<input type="text" value="Да" style="display: none">
+				</form>
+				<form id="form-name" action="" class="buy-form">
+					<p class="step-name">Как к Вам обращаться?</p>
+					<input type="name" placeholder="Имя" minlength="2" required>
+				</form>
+				<form id="form-email" action="" class="buy-form">
+					<p class="step-name">Напишите почту для связи</p>
+					<input type="email" placeholder="E-mail" required="">
+				</form>
+				<form id="form-phone" action="" class="buy-form">
+					<p class="step-name">Ваш номер телефона</p>
+					<input type="text" class="phone-num" data-mask="+7 (000) 000-00-00" placeholder="+7 (___) ___- __-__" minlength="18" required>
+				</form>
+				<form action="" class="buy-form">
+					<p class="step-name">Куда будем доставлять?</p>
+					<input type="text" placeholder="Адрес">
+				</form>
+				<form action="" class="buy-form">
+					<p class="step-name">Спасибо за заказ!</p>
+					<center><img class="smile" src="smile.svg" alt=""></center>
+				</form>
+				<div class="btns">
+					<button class="next"><img src="arrow.svg" width="35px"></button>
+					<button class="prev">Назад</button>
+				</div>
+			</section>
+			<section class="rate-section">
+				<form action="" class="buy-form">
+					<p style="font-size: 52px">Оцените дизайн скутера</p>
+					<div class="rating">
+						<div>
+							<input id="worst" type="radio" name='rr'>
+							<label for="worst">Ужасно! &#128123;</label>
+						</div>
+						<div>
+							<input id="bad" type="radio" name='rr'>
+							<label for="bad">Ну такое.. &#128078;</label>
+						</div>
+						<div>
+							<input id="notbad" type="radio" name='rr'>
+							<label for="notbad">Неплохо. &#128521;</label>
+						</div>
+						<div>
+							<input id="good" type="radio" name='rr' checked>
+							<label for="good">Отлично &#128527;</label>
+						</div>
+						<div>
+							<input id="best" type="radio" name='rr'>
+							<label for="best">Супер – дайте два! &#128561; &#128525; </label>
+						</div>
+					</div>
+				</form>
+				<form action="" class="buy-form">
+					<p>Спасибо за оценку!</p>
+					<center><img class="smile" src="smile.svg" alt=""></center>
+				</form>
+				<div class="btns">
+					<button class="rateme"><img src="arrow.svg" width="35px"></button>
+					<button class="ooops">Назад</button>
+				</div>
+			</section>
+		</div>
+	</div>
+	<div class="page">
+		<div class="screen">
+			<div class="container">
+				<div class="block">
+					<h2>ЭЛЕКТРОСКУТЕР</h2>
+					<h1>L-Ride One</h1>
+					<p>Быстрый и безопасный.<br/> 
+					   С ночной и дневной подсветкой – скутер разработанный<br/> 
+					   специально для вас и ваших путешествий.</p>
+					<div class="btn-group">
+						<button class="buy-button">Заказать</button>
+						<button class="more-button">Узнать больше <img src="arrow.png" width="22px"></button>
+					</div>
+				</div>
+				<div class="block">
+					<div class="owl-carousel" data-aos="fade-left" data-aos-delay="500">
+						<div class="item">
+							<img src="scooter100.png" class="scooter scalable" width="500" alt="">
+						</div>
+						<div class="item">
+							<img src="scooter3.png" class="scooter" width="500" alt="">
+						</div>
+						<div class="item">
+							<img src="scooter105.png" class="scooter scalable" width="500" alt="">
+						</div>
+					</div>
+					<!--<img class="scooter" src="scooter1.png" width="300" alt="">-->
+					<h2 class="mobile-visible">ЭЛЕКТРОСКУТЕР</h2>
+					<h1 class="mobile-visible">L-Ride One</h1>
+					<div class="slider-container" data-aos="fade-down" data-aos-delay="1000">
+						<ul class="slider owl-dots">
+							<li class="owl-dot"></li>
+							<li class="owl-dot"></li>
+							<li class="owl-dot"></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="screen">
+			<div class="container">
+				<div class="advantages__container">
+						<div class="advantage" data-aos="fade-right">
+							<img src="icon-1.svg">
+							<h3>Мощность</h3>
+							<p>С максимальной скоростью в 50км и расширенной дальностью в 40км, L-Ride One доставит вас куда вы пожелаете.<br/></p>
+							<p class="details" id="power">Подробнее <img src="arrow2.png" alt=""></p>
+						</div>
+					<div class="advantage" data-aos="fade-right" data-aos-delay="100">
+						<img src="icon-2.svg">
+						<h3>Безопасность</h3>
+						<p>Контроль тяги, плавная подвеска, качественные шины и интеллектуальная подсветка послужат вам где угодно.</p>
+						<p class="details" id="safety">Подробнее <img src="arrow2.png" alt=""></p>
+					</div>
+					<div class="advantage" data-aos="fade-right" data-aos-delay="200">
+						<img src="icon-3.svg">
+						<h3>Стиль</h3>
+						<p>Мы разработали L-Ride для удобства в любом образе жизни. От ежедневной рутины до захватывающих поездок - это ваш верный спутник.</p>
+						<p class="details" id="style">Подробнее <img src="arrow2.png" alt=""></p>
+					</div>
+				</div>
+				<div class="content">
+					<div>
+						<h2 data-aos="fade-right">ДИЗАЙН</h2>
+						<h1 data-aos="fade-right" data-aos-delay="100">Создан для вас</h1>
+						<div class="red-line" data-aos="fade-right" data-aos-delay="100"></div>
+						<p data-aos="fade-right">Мы разработали L-Ride One с нуля, чтобы он был безопасным, плавным и наиболее оживляющим электроскутером в мире.<br/><br/>
+						С превосходящей акселерацией, полиударной подвеской, авиационными материалами и безопасностью –
+					    L-Ride One не покажется вам похожим ни на один скутер, что вы имели до, а станет единственным, что вам нужен.</p>
+				    </div>
+				    <img id="scooter" data-aos="fade-left" src="scooter3.png" alt="">
+				</div>
+				<div class="text-content safety-block" data-aos="fade-up">
+					<h2>ТЕХНОЛОГИЯ</h2>
+					<h1>Умный. Быстрый. Безопасный.</h1>
+					<div class="red-line"></div>
+					<p>Технология L-Ride One призвана синхронизировать cкутер с вашим ритмом жизни.<br/>
+					От разблокировки через приложение до режима полета и управления мощностью.</p>
+			    </div>
+			</div>
+			<img src="scooter-4.png" data-aos="fade-up" width="100%" alt="">
+			<div class="container">
+				<div class="advantages__container no-padding" id="horizontal">
+					<div class="advantage" data-aos="fade-right">
+						<img src="icon-4.svg" width="60px" height="60px" class="icon">
+						<div>
+							<h3>Премиальный дисплей</h3>
+						    <p>С максимальной скоростью в 50км и расширенной дальностью в 40км, L-Ride One доставит вас куда вы пожелаете.<br/></p>
+						</div>
+					</div>
+					<div class="advantage" data-aos="fade-right" data-aos-delay="100">
+						<img src="icon-5.svg" width="60px" height="60px" class="icon">
+						<div>
+							<h3>Ночная и дневная подсветка</h3>
+							<p>Контроль тяги, плавная подвеска, качественные шины и интеллектуальная подсветка послужат вам где угодно.</p>
+						</div>
+					</div>
+					<div class="advantage" data-aos="fade-right" data-aos-delay="200">
+						<img src="icon-6.svg" width="60px" height="60px" class="icon">
+						<div>
+							<h3>Подключение везде</h3>
+							<p>Мы разработали L-Ride для удобства в любом образе жизни. От ежедневной рутины до захватывающих поездок - это ваш верный спутник.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="screen">
+			<div class="container">
+				<div class="content">
+					<div>
+						<h2 data-aos="fade-right">МОЩНОСТЬ</h2>
+						<h1 data-aos="fade-right" data-aos-delay="100">Быстрое ускорение</h1>
+						<div class="red-line" data-aos="fade-right" data-aos-delay="100"></div>
+						<p data-aos="fade-right">L-Ride One с усовершенстованным двигателем, высоким сцеплением, тормозами ABS, плавным дросселем для полного контроля в любых условиях.</p>
+						<div class="advantages__container minimal no-padding" id="horizontal">
+							<div class="advantage" data-aos="fade-right">
+								<img src="icon-7.svg" width="40px" height="40px" class="icon">
+								<div>
+									<h3>50км/ч</h3>
+								    <p>Превосходная разработка позволяет развивать скорость до 50 км/ч.<br/></p>
+								</div>
+							</div>
+							<div class="advantage" data-aos="fade-right" data-aos-delay="100">
+								<img src="icon-8.svg" width="40px" height="40px" class="icon">
+								<div>
+									<h3>Магнитный привод</h3>
+									<p>Высоко эффективный мотор доставит вас дальше и быстрее.</p>
+								</div>
+							</div>
+							<div class="advantage" data-aos="fade-right" data-aos-delay="200">
+								<img src="icon-9.svg" width="40px" height="40px" class="icon">
+								<div>
+									<h3>Сила в гору</h3>
+									<p>Легкая рама в сочетании с мощным мотором выдерживают даже поездку в горы и другие подъемы.</p>
+								</div>
+							</div>
+						</div>
+				    </div>
+				</div>
+			</div>
+			<div class="img-container">
+				    </div>
+		</div>
+		<div class="screen">
+			<div class="container">
+				<div class="content">
+					<div>
+						<h2 data-aos="fade-left">ДАЛЬНОСТЬ</h2>
+						<h1 data-aos="fade-left" data-aos-delay="100">Ещё дальше</h1>
+						<div class="red-line" data-aos="fade-left" data-aos-delay="100"></div>
+						<p data-aos="fade-left">С дальностью 40км и шинами, годными в любую погоду, электроскутер L-Ride One доставит вас туда, куда вам нужно.</p>
+						<div class="advantages__container minimal no-padding" id="horizontal">
+							<div class="advantage" data-aos="fade-left">
+								<img src="icon-10.svg" width="40px" height="40px" class="icon">
+								<div>
+									<h3>Дальность в 40км</h3>
+								    <p>Отправляйтесь ещё дальше с запасом в 40км дистанции.<br/></p>
+								</div>
+							</div>
+							<div class="advantage" data-aos="fade-left" data-aos-delay="100">
+								<img src="icon-11.svg" width="40px" height="40px" class="icon">
+								<div>
+									<h3>Быстрая подзарядка</h3>
+									<p>Скорость подзарядки менее 2 часов для поездки в 20км.</p>
+								</div>
+							</div>
+							<div class="advantage" data-aos="fade-left" data-aos-delay="200">
+								<img src="icon-12.svg" width="40px" height="40px" class="icon">
+								<div>
+									<h3>Далекие путешествия</h3>
+									<p>Высокий руль и мягкие безвоздушные шины доставят вас куда угодно.</p>
+								</div>
+							</div>
+						</div>
+				    </div>
+				</div>
+			</div>
+			<div class="img-container">
+				    </div>
+		</div>
+		<div class="screen">
+			<div class="container">
+				<div class="content">
+					<div>
+						<h1 data-aos="fade-left" data-aos-delay="100">Удобство – истинный стиль</h1>
+						<div class="red-line" data-aos="fade-left" data-aos-delay="100"></div>
+						<p data-aos="fade-left">Носите с собой куда угодно. Наша система X-Fold из углеродного волокна делает L-Ride One супер ярким и компактным без компромиссов в мощности. Положите скутер под стол или возьмите его с собой в общественный транспорт.</p>
+						<div class="advantages__container minimal no-padding" id="horizontal">
+							<div class="advantage" data-aos="fade-left">
+								<img src="icon-15.svg" width="40px" height="40px" class="icon">
+								<div>
+									<h3>Умный, Экологичный и Рокет режимы для любого приключения</h3>
+								</div>
+							</div>
+							<div class="advantage" data-aos="fade-left" data-aos-delay="100">
+								<img src="icon-13.svg" width="40px" height="40px" class="icon">
+								<div>
+									<h3>Возьми с собой куда угодно – с крутой легковесной рамой</h3>
+								</div>
+							</div>
+							<div class="advantage" data-aos="fade-left" data-aos-delay="200">
+								<img src="icon-14.svg" width="40px" height="40px" class="icon">
+								<div>
+									<h3>X-Fold – простое складывание в одно движение</h3>
+								</div>
+							</div>
+						</div>
+				    </div>
+				    <img id="scootertwo" data-aos="fade-left" src="scooter5.png" alt="">
+				</div>
+			</div>
+		</div>
+		<div class="screen">
+			<div class="container">
+				<div class="content">
+					<img src="arrow2.png" alt="" class="cnxt">
+					<img src="arrow2.png" alt="" class="cprv" style="transform: rotate(180deg);">
+					<div class="carousel" data-aos="fade-down">
+						<div class="item">
+							<img src="jb.jpg" width="75px" alt="">
+							<p>"Увидев вживую и протестировав прототип, я не могу ждать, чтобы взять в свои руки конечный продукт. Дизайн, компактность, дальность и скорость – всё это делает лучший электроскутер на рынке."</p>
+							<h2>Джейсон Блэкман</h2>
+							<h3>Авто-продажи</h3>
+						</div>
+						<div class="item">
+							<img src="bg.jpg" width="75px" alt="">
+							<p>"У меня был чудесный вечер с самым свежим и крутейшим электроскутером от L-Ride. Если вы хотите очистить вашу голову и получить море приятных эмоций, уверяю вас, вы не разочаруетесь!"</p>
+							<h2>Брайан Грин</h2>
+							<h3>Уолт Дисней, анимационная студия</h3>
+						</div>
+						<div class="item">
+							<img src="jb.jpg" width="75px" alt="">
+							<p>"Увидев вживую и протестировав прототип, я не могу ждать, чтобы взять в свои руки конечный продукт. Дизайн, компактность, дальность и скорость – всё это делает лучший электроскутер на рынке."</p>
+							<h2>Джейсон Блэкман</h2>
+							<h3>Авто-продажи</h3>
+						</div>
+						<div class="item">
+							<img src="bg.jpg" width="75px" alt="">
+							<p>"У меня был чудесный вечер с самым свежим и крутейшим электроскутером от L-Ride. Если вы хотите очистить вашу голову и получить море приятных эмоций, уверяю вас, вы не разочаруетесь!"</p>
+							<h2>Брайан Грин</h2>
+							<h3>Уолт Дисней, анимационная студия</h3>
+						</div>
+				    </div>
+				</div>
+			</div>
+		</div>
+		<div class="screen">
+			<div class="container">
+				<div class="block">
+					<h1 data-aos="fade-down">L-Ride One</h1>
+					<p data-aos="fade-right">Быстрый и безопасный.<br/> 
+					   С ночной и дневной подсветкой – скутер разработанный<br/> 
+					   специально для вас и ваших путешествий.<br/><br/>
+					   Предзаказ: <b>60 000 &#8381;</b></p>
+					<div class="btn-group" data-aos="fade-right">
+						<button class="buy-button">Заказать</button>
+					</div>
+				</div>
+				<div class="block">
+					<div class="owl-carousel" data-aos="fade-left" data-aos-delay="500">
+						<div class="item">
+							<img src="scooter100.png" class="scooter scalable" width="500" alt="">
+						</div>
+						<div class="item">
+							<img src="scooter3.png" class="scooter" width="500" alt="">
+						</div>
+						<div class="item">
+							<img src="scooter105.png" class="scooter scalable" width="500" alt="">
+						</div>
+					</div>
+					<h1 class="mobile-visible">L-Ride One</h1>
+					<div class="slider-container" data-aos="fade-down" data-aos-delay="1000">
+						<ul class="slider owl-dots">
+							<li class="owl-dot"></li>
+							<li class="owl-dot"></li>
+							<li class="owl-dot"></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<script src="owl.carousel.min.js"></script>
+	<script src="script.js"></script>
+
+</body>
+</html>

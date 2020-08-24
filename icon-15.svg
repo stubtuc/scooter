@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="353px" height="353px" viewBox="0 0 353 353" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 28</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-604.000000, -260.000000)" stroke="#C52D28" stroke-width="15">
+            <g id="Group-28" transform="translate(805.500000, 412.000000) rotate(-315.000000) translate(-805.500000, -412.000000) translate(715.000000, 209.000000)">
+                <path d="M43.5,52.3468096 L43.5,343.147565 C59.5407154,360.85296 75.0400387,369.407216 90,369.407216 C104.959961,369.407216 120.459285,360.85296 136.5,343.147559 L136.5,52.3468096 C115.563912,22.3453513 99.3387106,7.5 90,7.5 C80.6612894,7.5 64.4360881,22.3453513 43.500005,52.3468024 Z" id="Rectangle-5"></path>
+                <polyline id="Path-37" stroke-linecap="round" stroke-linejoin="round" points="138 262 180.314696 304.314696 180.314696 385.646269 138.991346 344.322919"></polyline>
+                <polyline id="Path-37" stroke-linecap="round" stroke-linejoin="round" transform="translate(21.157348, 323.823134) scale(-1, 1) translate(-21.157348, -323.823134) " points="0 262 42.3146961 304.314696 42.3146961 385.646269 0.991346285 344.322919"></polyline>
+                <path d="M45.8195653,344.082971 L130.0668,344.082971" id="Path-38"></path>
+                <path d="M45.8195653,344.082971 L130.0668,344.082971" id="Path-38"></path>
+                <path d="M46,53 L130.247234,53" id="Path-38"></path>
+                <path d="M87.9431825,405.685844 L87.9431825,288.889819" id="Path-38" stroke-linecap="round" stroke-linejoin="round"></path>
+                <circle id="Oval-20" cx="90" cy="161" r="22"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

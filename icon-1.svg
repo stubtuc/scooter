@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="462px" height="461px" viewBox="0 0 462 461" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-110.000000, -180.000000)" stroke="#FFFFFF" stroke-width="15">
+            <g id="Group" transform="translate(350.500000, 402.000000) rotate(-315.000000) translate(-350.500000, -402.000000) translate(216.000000, 89.000000)">
+                <circle id="Oval" cx="134.5" cy="202.5" r="37.5"></circle>
+                <path d="M134.321105,625.985322 L134.321105,503.314466" id="Path-4" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M134.321105,472.985322 L134.321105,350.314466" id="Path-4" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M133.761723,14.2209382 C95.0932355,71.7287363 70.9417857,138.932647 61.3170841,215.930261 C51.3988734,295.275946 59.5198358,364.091586 85.5739492,422.500006 L182.687749,422.5 C206.624241,342.699569 214.920352,273.829746 207.682916,215.930261 C200.595231,159.228781 175.978982,91.9554685 133.761723,14.2209382 Z" id="Rectangle"></path>
+                <path d="M193,581.670856 L193,459" id="Path-4" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M75,581.670856 L75,459" id="Path-4" stroke-linecap="round" stroke-linejoin="round"></path>
+                <polyline id="Path-5" stroke-linecap="round" stroke-linejoin="round" points="214.15829 261.864952 268.218666 343.5869 268.218666 455.938394 201.679759 362.939394"></polyline>
+                <polyline id="Path-5" stroke-linecap="round" stroke-linejoin="round" transform="translate(32.198493, 358.901673) scale(-1, 1) translate(-32.198493, -358.901673) " points="9.65685069 261.864952 63.7172269 343.5869 63.7172269 455.938394 0.679759141 368.030449"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

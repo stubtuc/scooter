@@ -1,0 +1,756 @@
+*
+  padding: 0
+  margin: 0
+
+body
+  width: 100%
+  overflow-x: hidden
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  font-size: 20px
+  background-color: #282828
+  font-family: "Helvetica Neue"
+
+//.hidden
+//  opacity: 0
+
+//.animate
+//  opacity: 1
+//  animation: block .5s ease-in-out
+
+.buy-container
+  display: flex
+  justify-content: center
+  flex-direction: column
+  position: relative
+  z-index: 6
+  width: 50%
+  height: 70%
+  top: 15%
+  left: 25%
+  //background-color: rgba(0, 0, 0, .55)
+  border-radius: 5px
+  color: black
+  .btns
+    width: 100%
+    display: flex
+    flex-direction: row
+  button
+    font-size: 22px
+    width: 50%
+    color: white
+    background-color: transparent
+    border: none
+    cursor: pointer
+    outline: none
+    transition: all ease-in-out .15s
+    padding: 15px 0px 16px 0px
+    -moz-appearance: none
+    -webkit-appearance: none
+    appearance: none
+    img
+        margin-top: 5px
+    &:nth-child(1)
+      background-color: #25C566
+      border-radius: 15px
+      border-top-right-radius: 0px
+      border-bottom-right-radius: 0px
+    &:nth-child(2)
+      background-color: rgba(255, 255, 255, .1)
+      border-radius: 15px
+      border-top-left-radius: 0px
+      border-bottom-left-radius: 0px
+    &:hover
+      opacity: .85
+  input
+    -moz-appearance: none
+    -webkit-appearance: none
+    appearance: none
+    outline: none
+    border: none
+    background-color: rgba(255, 255, 255, .15)
+    border-radius: 15px
+    font-size: 30px
+    width: 100%
+    padding: 25px 15px 25px 15px
+    margin: 0px -15px 0px -15px
+    color: white
+    font-weight: 300
+    position: relative
+    margin-bottom: 35px
+    &::placeholder
+      color: rgba(255, 255, 255, .25)
+  section
+    width: 100%
+    margin: 0 auto
+    p
+      color: white
+      font-size: 35px
+      font-weight: 300
+      margin-bottom: 35px
+
+.chat
+  //position: fixed
+  position: relative
+  //width: 50%
+  //height: 200px
+  //top: 15px
+  overflow-y: scroll
+  border-radius: 15px
+  //left: 25%
+  font-size: 16px
+  .message
+    width: 100%
+    text-align: left
+  .you
+    width: 100%
+    text-align: right
+    span
+      background-color: #2580C5
+  p
+    position: relative
+    padding: 15px
+  span
+    padding: 15px
+    background-color: rgba(255, 255, 255, .05)
+    color: white
+    border-radius: 15px
+    display: inline-block
+
+
+
+.smile
+  margin-bottom: 35px
+  width: 350px
+
+.buy-space, .exit, .buy-form
+  visibility: hidden
+
+.exit
+  position: absolute
+  right: 10%
+  top: 10%
+  cursor: pointer
+  width: 50px
+  &:hover
+    opacity: .75
+  
+.buy-space
+  position: fixed
+  z-index: 5
+  width: 100%
+  height: 100%
+  top: 0
+  left: 0
+  background-color: rgba(255, 255, 255, .15)
+  backdrop-filter: blur(35px)
+  -webkit-backdrop-filter: blur(35px)
+  -moz-backdrop-filter: blur(35px)
+  color: black
+
+.mobile-visible
+  display: none
+  z-index: 0
+
+.page
+  position: absolute
+  width: 100%
+  height: 100%
+  top: 0
+  left: 0
+  display: flex
+  flex-direction: column
+  overflow-x: hidden
+
+#-error
+  position: relative
+  top: -17px
+  color: white
+  opacity: .55
+
+.rating
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+  margin-bottom: 35px
+
+.rating label
+  color: white
+  display: inline-block
+  padding: 35px
+  border: solid 2px transparent
+  transition: all 0.3s
+  background-color: rgba(255, 255, 255, .05)
+  margin: 0px 15px 15px 0px
+  border-radius: 15px
+
+.rating input[type="radio"] 
+  display: none
+
+.rating input[type="radio"]:checked + label 
+  border: solid 2px white
+
+
+.screen
+  position: relative
+  //height: 100%
+  width: 100%
+  color: white
+  background-color: #282828
+  &:nth-child(1), &:nth-child(7)
+    flex: 1 0 100%
+    background: url('bg.png')
+    background-position: center
+    background-size: cover
+  &:nth-child(2)
+    //background-image: linear-gradient(0deg, #282828 0%, #282828 0%, #181818 52%, #181818 52%)
+    background: #181818
+    background-position: center
+    background-size: cover
+    h1
+      font-size: 40px
+      padding-top: 35px
+      padding-bottom: 45px
+    h2
+      font-size: 16px
+      letter-spacing: 7px
+      opacity: .55
+      font-weight: 500
+    p
+      line-height: 32px
+      font-weight: 300
+      letter-spacing: 1px
+      font-size: 18px
+    .container
+      height: fit-content
+  &:nth-child(3), &:nth-child(4), &:nth-child(5)
+    background-color: white
+    .content
+      margin-bottom: 0px
+      padding: 90px 0px 0px 0px
+      &:nth-child(1)
+        z-index: 3
+      h1, h3, p
+        color: black
+      p
+        max-width: 460px
+      h2
+        color: #C52D28
+    h1
+      font-size: 40px
+      padding-top: 35px
+      padding-bottom: 45px
+    h2
+      font-size: 16px
+      letter-spacing: 7px
+      opacity: .55
+      font-weight: 500
+    p
+      line-height: 32px
+      font-weight: 300
+      letter-spacing: 1px
+      font-size: 16px
+    .advantages__container
+      flex-direction: column
+      margin-top: 10px
+      h3
+        font-size: 20px
+      p
+        font-size: 14px
+        line-height: 25px
+        width: 380px
+      .advantage
+        padding: 0px 0px 0px 0px
+        *
+          margin-top: 15px
+    .red-line
+      background: linear-gradient(45deg, #C52D28 0%, white)
+    .img-container
+      position: absolute
+      z-index: 0
+      right: 0px
+      top: 0px
+      height: 100%
+      width: 50%
+      background: url('koleso.png')
+      background-size: cover
+      background-position: center
+    .icon
+      margin-right: 25px
+      top: 23px
+      width: 40px
+      height: 40px
+      animation: normalizez .1s ease-in-out
+  &:nth-child(4)
+    .content
+      flex-direction: row-reverse
+    .img-container
+      right: none
+      left: 0px
+      background: url('kartinka.png')
+      background-size: cover
+      background-position: center
+  &:nth-child(5)
+    background-color: #FFF6F3
+    .advantages__container
+      flex-direction: row
+      margin-bottom: 125px
+      h3
+        font-size: 18px
+        font-weight: 500
+      *
+        margin-right: 15px
+    #horizontal .advantage
+      flex-direction: column
+    .icon
+      margin-bottom: 25px
+  &:nth-child(6)
+    background-color: #191919
+    .content
+      margin-bottom: 0px !important
+      padding: 90px 0px 90px 0px
+
+
+.advantages__container
+  display: flex
+  flex-direction: row
+  margin: 0px 0px 70px 0px
+  padding: 70px 0px 70px 0px
+  .advantage
+    text-align: center
+    padding: 30px 15px 30px 15px
+    width: 100%
+    //margin-bottom: 35px
+    p
+      line-height: 32px
+      font-weight: 300
+      letter-spacing: 1px
+      font-size: 18px
+    h3
+      font-size: 22px
+    img
+      width: 60px
+      height: 60px
+    .details
+      color: #C52D28
+      text-decoration: none
+      outline: none
+      font-weight: 600
+      font-size: 20px
+      letter-spacing: 0px
+      cursor: pointer
+      img
+        width: 10px
+        height: 15px
+        left: 5px
+        top: 2px
+        position: relative
+      &:hover
+        img
+          animation: arrow .75s infinite ease-in-out
+    *
+      margin-top: 25px
+
+.red-line
+  width: 350px
+  height: 2px
+  background: linear-gradient(45deg, #C52D28 0%, #181818)
+  margin-bottom: 45px
+
+.container
+  position: relative
+  display: flex
+  flex-wrap: wrap
+  align-items: center
+  justify-content: space-between
+  flex-direction: row
+  margin: 0 auto
+  max-width: 1130px
+  padding: 0px 15px 0px 15px
+  height: 100%
+  .block
+    animation: block .5s ease-in-out
+    &:nth-child(2)
+      h1, h2
+        position: absolute
+        //left: 15px
+        top: 20px
+        z-index: 0
+      h1
+        margin-top: 10px
+        margin-bottom: 40px
+        font-size: 60px
+      h2
+        font-size: 15px
+    h1
+      font-size: 85px
+      padding-top: 10px
+      padding-bottom: 45px
+    h2
+      font-size: 20px
+      opacity: .55
+      font-weight: 500
+    button
+      font-size: 22px
+      color: white
+      margin-top: 55px
+      background-color: transparent
+      border: none
+      cursor: pointer
+      outline: none
+      transition: all ease-in-out .15s
+      padding: 15px 0px 16px 0px
+      -moz-appearance: none
+      -webkit-appearance: none
+      appearance: none
+    p
+      line-height: 32px
+      font-weight: 300
+      letter-spacing: 1px
+    .slider
+      display: flex
+      flex-wrap: wrap
+      align-items: center
+      justify-content: space-between
+      width: 120px
+      margin: 0 auto
+      list-style: none
+      padding-top: 35px
+      transform: translateX(8px)
+      animation: slider ease-in-out 1s
+      li
+        width: 7px
+        height: 7px
+        border-radius: 50%
+        background-color: white
+        opacity: .5
+        cursor: pointer
+        transition: all ease-in-out .1s
+        &:after
+          content: ""
+          position: absolute
+          width: 50px
+          height: 50px
+          border: 2px solid transparent
+          border-radius: 50%
+          margin: -22px 0px 0px -22px
+        &:hover
+          width: 10px
+          height: 10px
+          opacity: 1
+      .active
+        width: 10px
+        height: 10px
+        opacity: 1
+        &:after
+          content: ""
+          position: absolute
+          width: 50px
+          height: 50px
+          border: 2px solid #C52D28
+          border-radius: 50%
+          margin: -22px 0px 0px -22px
+
+  .btn-group
+    animation: buttons ease-in-out 1s
+  button
+    &:nth-child(1)
+      border-radius: 45px
+      width: 250px
+      border: 2px solid #C52D28
+      background-color: #C52D28
+      box-shadow: 0px 5px 10px rgba(197, 45, 40, .5)
+      &:hover
+        background-color: transparent
+        box-shadow: 0px 5px 20px rgba(197, 45, 40, .55)
+      &:active
+        transform: scale(.95)
+    &:nth-child(2)
+      opacity: .55
+      font-weight: 200
+      margin-left: 40px
+      &:hover
+        opacity: 1
+        img
+          animation: arrow .75s infinite ease-in-out
+    img
+      position: relative
+      top: 1px
+      left: 5px
+      transition: all ease-in-out .15s
+
+.scooter
+  animation: scooter .45s linear
+  z-index: 1
+
+.content
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  width: 100%
+  align-items: center
+  margin-bottom: 160px
+  p
+    max-width: 550px
+
+.owl-carousel
+  max-width: 500px
+  max-height: 500px
+  overflow: hidden
+  margin: 0 auto
+  .scalable
+    transform: scale(1.25) translateY(-25px)
+
+.owl-stage
+  display: flex
+  flex-direction: row
+  //height: 500px
+
+#scootertwo
+  width: 550px
+
+#scooter
+  width: 500px
+  height: 435px
+  animation: scooter .45s linear
+
+.text-content
+  display: flex
+  width: 100%
+  align-items: center
+  flex-direction: column
+  justify-content: center
+  text-align: center
+  margin-bottom: 70px
+  .red-line
+    background: linear-gradient(45deg,#181818 0%, #C52D28 50%, #181818)
+
+#horizontal
+  .advantage
+    display: flex
+    text-align: inherit
+    //justify-content: center
+    //align-items: flex-start
+
+.icon
+  margin-right: 45px
+  position: relative
+  top: 30px
+  width: 60px
+  height: 60px
+  animation: normalize .1s ease-in-out
+
+.cnxt
+  position: absolute
+  right: 0
+
+.cprv
+  position: absolute
+  left: 0
+  &:hover
+    transform: rotate(180deg) scale(1.25) !important
+
+.cnxt, .cprv
+  padding: 15px 19px
+  margin: 0px -10px 0px -10px
+  border-radius: 50%
+  background-color: black
+  cursor: pointer
+  z-index: 3
+  &:hover
+    transform: scale(1.25)
+
+.carousel
+  overflow: hidden
+  .item
+    display: flex
+    justify-content: space-between
+    flex-direction: column
+    align-items: center 
+    //color: black
+    padding: 90px 45px 90px 45px
+    img
+      border-radius: 50%
+      margin-bottom: 35px
+    p
+      font-weight: 300
+      margin-bottom: 35px
+      letter-spacing: 1px
+    h2
+      margin-bottom: 5px
+      font-size: 20px
+    h3
+      font-weight: 500
+      font-size: 18px
+      opacity: .35
+  .owl-item
+    &:nth-child(2n)
+      border-left: 2px solid
+      border-image: linear-gradient(to bottom, transparent, #C52D28, transparent) 0% 100%
+
+
+@media screen and (max-width: 1085px)
+  .screen
+    &:nth-child(1)
+      flex: none
+      height: fit-content
+      background: none
+    &:nth-child(4)
+      .content
+        flex-direction: row
+    &:nth-child(3), &:nth-child(4)
+      .content
+        margin-bottom: 500px
+    &:nth-child(7)
+      .block
+        &:nth-child(2)
+          background: none !important
+      .container
+        flex-direction: column-reverse
+        justify-content: space-around
+  .mobile-visible
+    display: block
+  .btn-group
+    button
+      &:nth-child(1)
+        width: 100%
+        margin-top: 35px
+      &:nth-child(2)
+        width: 100%
+        margin-left: 0px
+        margin-top: 15px
+        margin-bottom: 15px
+  .block
+    width: 100%
+    position: relative
+    margin-bottom: 50px
+    &:nth-child(1)
+      h1, h2
+        display: none
+    &:nth-child(2)
+      //background: url('background.png')
+      //background-size: cover
+      background: linear-gradient(transparent 50%, rgba(0, 0, 0, .25))
+      margin: 0px 0px 30px 0px
+      border-radius: 25px
+  .scooter
+    margin-top: 150px
+    width: 50%
+    display: block
+    margin-left: auto
+    margin-right: auto
+  .slider-container
+    margin-top: 25px
+    margin-bottom: 75px
+  .screen
+    &:nth-child(1)
+      .container
+        flex-direction: column-reverse
+        flex-wrap: nowrap
+        height: fit-content
+  .screen
+    background: #282828
+  .advantages__container
+    flex-direction: column
+    .advantage
+      padding: 30px 0px 30px 0px
+  .buy-container
+    width: 90%
+    left: 5%
+    right: 5%
+  .chat
+    width: 90%
+    left: 0
+  .exit
+    right: 5%
+    top: 5%
+  .img-container
+    width: 100% !important
+    height: 800px !important
+    top: 800px !important
+
+@keyframes buttons
+  0%
+    opacity: 0
+    transform: translateY(-10px)
+  50%
+    opacity: 0
+    transform: translateY(-10px)
+  100%
+    opacity: 1
+    transform: translateY(0px)
+
+@keyframes slider
+  0%
+    opacity: 0
+    transform: translateX(8px) translateY(-10px)
+  50%
+    opacity: 0
+    transform: translateX(8px) translateY(-10px)
+  100%
+    opacity: 1
+    transform: translateX(8px) translateY(0px)
+
+@keyframes text
+  0%
+    opacity: 0
+    transform: translateY(-15px)
+  50%
+    opacity: 0
+    transform: translateY(-15px)
+  100%
+    opacity: 1
+    transform: translateY(0px)   
+
+@keyframes block
+  0%
+    opacity: 0
+    transform: translateY(-15px)
+  50%
+    opacity: 0
+    transform: translateY(-15px)
+  100%
+    opacity: 1
+    transform: translateY(0px)
+
+@keyframes arrow
+  0%
+    transform: translateX(0px)
+  50%
+    transform: translateX(5px)
+  100%
+    transform: translateX(0px)
+
+@keyframes normalize
+  0%
+    width: 0px
+    height: 0px
+  100%
+    width: 60px
+    height: 60px
+
+@keyframes error
+  0%
+    transform: translateX(0px)
+  25%
+    transform: translateX(-5px)
+  50%
+    transform: translateX(0px)
+  75%
+    transform: translateX(5px)
+  100%
+    transform: translateX(0px)
+
+@keyframes normalizez
+  0%
+    width: 0px
+    height: 0px
+  100%
+    width: 40px
+    height: 40px
+
+@keyframes scooter
+  0%
+    transform: translateX(800px)
+  100%
+    transform: translateX(0px)

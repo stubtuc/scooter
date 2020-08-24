@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="321px" height="322px" viewBox="0 0 321 322" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 26</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-676.000000, -270.000000)">
+            <g id="Group-26" transform="translate(841.594732, 427.358916) rotate(-315.000000) translate(-841.594732, -427.358916) translate(776.094732, 212.858916)">
+                <g id="Group-25" transform="translate(47.000000, 68.000000)" fill="#C52D28">
+                    <circle id="Oval-19" cx="6" cy="6" r="6"></circle>
+                    <circle id="Oval-19" cx="29" cy="6" r="6"></circle>
+                    <circle id="Oval-19" cx="6" cy="26" r="6"></circle>
+                    <circle id="Oval-19" cx="29" cy="26" r="6"></circle>
+                </g>
+                <g id="Group-25" transform="translate(47.000000, 338.000000)" fill="#C52D28">
+                    <circle id="Oval-19" cx="6" cy="6" r="6"></circle>
+                    <circle id="Oval-19" cx="29" cy="6" r="6"></circle>
+                    <circle id="Oval-19" cx="6" cy="26" r="6"></circle>
+                    <circle id="Oval-19" cx="29" cy="26" r="6"></circle>
+                </g>
+                <path d="M52.6181426,421.5 L78.4455598,421.5 C108.212265,330.69666 123.125,271.845024 123.125,246 C123.125,179.789583 113.922029,118.518815 98.6756856,70.5748611 C92.2501682,50.3690519 85.0418023,33.661502 78.007895,22.1591933 C74.8218449,16.9491543 71.7828483,13.0034137 69.1127577,10.5023532 C67.1669835,8.67975627 65.8387732,7.98862566 65.5,7.98862566 C65.4873869,7.98862566 65.2192369,8.06231364 64.7105687,8.32163367 C63.8474958,8.76162992 62.7864215,9.52221174 61.587621,10.6058984 C58.7766629,13.1469366 55.5685805,17.1285592 52.2091215,22.3506797 C44.7252779,33.9839618 37.1070169,50.7345719 30.4495204,70.789109 C14.3549607,119.271138 5.66500316,180.229207 7.87075334,245.747647 C8.71673336,270.876192 23.6621188,329.783442 52.6181426,421.5 Z" id="Rectangle-8" stroke="#C52D28" stroke-width="15"></path>
+                <g id="Group-27" transform="translate(2.000000, 67.000000)" stroke="#C52D28" stroke-linecap="round" stroke-linejoin="round" stroke-width="15">
+                    <polyline id="Path-36" points="99.6354118 0.17515031 124 0.17515031 124 31.6564165 108.57741 31.6564165"></polyline>
+                    <polyline id="Path-36" transform="translate(12.182294, 15.740633) scale(-1, 1) translate(-12.182294, -15.740633) " points="0 1.13686838e-13 24.3645882 0 24.3645882 31.4812662 8.9419983 31.4812662"></polyline>
+                </g>
+                <g id="Group-27" transform="translate(64.000000, 346.000000) scale(1, -1) translate(-64.000000, -346.000000) translate(2.000000, 330.000000)" stroke="#C52D28" stroke-linecap="round" stroke-linejoin="round" stroke-width="15">
+                    <polyline id="Path-36" points="99.6354118 0.17515031 124 0.17515031 124 31.6564165 108.57741 31.6564165"></polyline>
+                    <polyline id="Path-36" transform="translate(12.182294, 15.740633) scale(-1, 1) translate(-12.182294, -15.740633) " points="0 1.13686838e-13 24.3645882 0 24.3645882 31.4812662 8.9419983 31.4812662"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
