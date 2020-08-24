@@ -268,7 +268,7 @@ body {
   .screen:nth-child(4) .img-container {
     right: none;
     left: 0px;
-    background: url("kartinka.png");
+    background: url("KARTINKA.png");
     background-size: cover;
     background-position: center; }
   .screen:nth-child(5) {
