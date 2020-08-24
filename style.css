@@ -215,7 +215,7 @@ body {
       .screen:nth-child(3) .content h1, .screen:nth-child(3) .content h3, .screen:nth-child(3) .content p, .screen:nth-child(4) .content h1, .screen:nth-child(4) .content h3, .screen:nth-child(4) .content p, .screen:nth-child(5) .content h1, .screen:nth-child(5) .content h3, .screen:nth-child(5) .content p {
         color: black; }
       .screen:nth-child(3) .content p, .screen:nth-child(4) .content p, .screen:nth-child(5) .content p {
-        max-width: 460px; }
+        max-width: 340px; }
       .screen:nth-child(3) .content h2, .screen:nth-child(4) .content h2, .screen:nth-child(5) .content h2 {
         color: #C52D28; }
     .screen:nth-child(3) h1, .screen:nth-child(4) h1, .screen:nth-child(5) h1 {
